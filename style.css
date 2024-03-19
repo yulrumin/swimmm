@@ -1,0 +1,403 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+  position: relative;
+}
+
+@font-face {
+  font-family: "TTHakgyoansimMulgyeolB";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2402_keris@1.0/TTHakgyoansimMulgyeolB.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+.nav {
+  position: fixed;
+  top: 0; /* 페이지의 맨 위에 위치하도록 설정 */
+  left: 0; /* 페이지의 왼쪽 가장자리에 위치하도록 설정 */
+  width: 100%; /* 전체 너비로 설정하여 상단 바처럼 만듦 */
+  background-image: url(/asset/nav.svg);
+  font-family: "TTHakgyoansimMulgyeolB", sans-serif;
+  font-size: 20px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.wrap1 {
+  width: 1200px;
+  margin: auto;
+}
+
+.flex {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menu {
+  width: 1440px;
+}
+
+.menu li {
+  list-style-type: none;
+}
+
+.menu li a {
+  display: block;
+  padding: 30px 35px;
+  text-decoration: none;
+  color: black;
+}
+
+.menu li a:hover {
+  color: #8FC3EB;
+}
+
+.main {
+  min-height: 500px;
+  max-height: 500px;
+}
+
+body {
+  margin: 0;
+  padding-top: 10px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.svg-navigation {
+  background-image: url("asset/rectangle-3.svg");
+  background-size: cover;
+  background-position: bottom;
+  width: 100%;
+  height: 88px;
+  position: absolute;
+  z-index: -1;
+}
+
+h1 {
+  font-size: 150px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "TTHakgyoansimMulgyeolB", sans-serif;
+}
+
+p {
+  font-family: "Pretendard-Regular", "normal";
+  line-height: 150%;
+}
+
+.title1 {
+  margin-left: 79px;
+  margin-top: 314px;
+}
+
+.title2 {
+  margin-left: 487px;
+  padding-top: 36px;
+}
+
+.title3 {
+  margin-left: 1099px;
+  padding-top: 14px;
+}
+
+.svg-square {
+  background-image: url("asset/title-square.svg");
+  background-size: cover;
+  background-position: bottom;
+  width: 100%;
+  height: 360px;
+  position: absolute;
+  bottom: 0;
+  z-index: -1;
+}
+
+.navigation span {
+  padding: 20px;
+  font-family: "Pretendard-Regular", "normal";
+}
+
+h3 {
+  font-family: "TTHakgyoansimMulgyeolB", sans-serif;
+  font-size: 52px;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+.content {
+  min-height: 100vh;
+}
+
+.detail-title-01 span:first-child {
+  margin-right: 385px;
+  padding-left: 34px;
+}
+
+.svg-water-line {
+  background-image: url("asset/water-line.svg");
+  background-size: cover;
+  background-position: bottom;
+  width: 100%;
+  height: 193px;
+  position: absolute;
+  z-index: -1;
+}
+
+.multi-column {
+  -webkit-column-count: 2;
+  -webkit-column-gap: 20px;
+  padding-left: 487px;
+  padding-top: 202px;
+  font-family: "Pretendard-Regular", "normal";
+  line-height: 150%;
+}
+
+.svg-padong {
+  background-image: url("asset/padong.svg");
+  background-size: cover;
+  width: 615.47px;
+  height: 357.11px;
+  z-index: -1;
+}
+
+.detail-title-02 {
+  display: flex;
+  align-items: baseline;
+}
+
+.detail-title-02 h3 {
+  margin-right: 0;
+}
+
+.detail-title-02 span:first-child {
+  margin-right: 54px;
+  padding-left: 34px;
+}
+
+.detail-content-02 p {
+  margin-left: 170px;
+}
+
+h4 {
+  font-size: 30px;
+  font-family: "TTHakgyoansimMulgyeolB", sans-serif;
+  line-height: 45px;
+  margin: 0;
+  padding: 0;
+}
+
+.how-to-swim {
+  min-height: 100vh;
+}
+
+.let-start {
+  margin-left: 167px;
+  margin-bottom: 90px;
+}
+
+.number1-title span:first-child {
+  margin-right: 32px;
+  padding-left: 170px;
+}
+
+.little-wave {
+  background-image: url("asset/little-wave.svg");
+  background-size: cover;
+  width: 174.3px;
+  height: 21px;
+  z-index: -1;
+  margin-left: 150px;
+}
+
+hr {
+  border: none; /* 기본 테두리 제거 */
+  height: 2px; /* 선의 두께 설정 */
+  background-color: #000; /* 선의 색상 설정 */
+  margin: 10px 0; /* 위아래 여백 설정 */
+}
+
+.long-line {
+  width: 1232px;
+  margin-left: 170px;
+}
+
+.wrap {
+  width: 540px;
+  margin-left: 170px;
+}
+
+.number1-content2 {
+  margin-left: 170px;
+}
+
+.svg-01 {
+  display: flex;
+  margin-top: 30px;
+  margin-left: 170px;
+  align-items: start;
+}
+
+.svg-01 span:first-child {
+  margin-right: 475px;
+}
+
+.arrow {
+  margin-left: 870px;
+}
+
+.svg-02 {
+  display: flex;
+  margin-top: 30px;
+  margin-left: 170px;
+}
+
+.svg-02 span:first-child {
+  margin-right: 475px;
+}
+
+.dive {
+  min-height: 100vh;
+}
+
+.svg-03 {
+  margin-left: 280px;
+}
+
+.number3-title span:first-child {
+  margin-right: 32px;
+  padding-left: 560px;
+}
+
+.short-line {
+  width: 840px;
+  margin-left: 562px;
+}
+
+.wrap-1 {
+  width: 840px;
+  margin-left: 562px;
+  margin-bottom: 65px;
+}
+
+.circle-text-container {
+  width: 1440px;
+  height: 720px;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 0;
+  margin: auto;
+}
+
+.circle-text {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1440px;
+  height: 1440px;
+  animation: rotate infinite 20s linear;
+}
+
+@keyframes rotate {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+.circle-text-detail {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.little-wave-1 {
+  background-image: url("asset/little-wave.svg");
+  width: 128.295px;
+  height: 20px;
+  z-index: -1;
+  background-repeat: no-repeat;
+  margin-left: 656px;
+  margin-top: 450px;
+}
+
+.conclusion {
+  min-height: 100vh;
+}
+
+.svg-water-jump {
+  background-image: url("asset/water-jump.svg");
+  background-size: cover;
+  width: 1440;
+  height: 1420px;
+  z-index: -1;
+}
+
+.ask {
+  margin-left: 231px;
+  margin-top: 99px;
+}
+
+.answer {
+  margin-left: 338px;
+  margin-top: 184px;
+}
+
+h5 {
+  font-family: "TTHakgyoansimMulgyeolB", sans-serif;
+  font-size: 48px;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.water {
+  margin-left: 326px;
+  margin-top: 350px;
+}
+
+.definition {
+  margin-left: 326px;
+  margin-top: 10px;
+}
+
+.arrow-final {
+  background-image: url("asset/arrow.svg");
+  width: 36.3;
+  height: 52.149px;
+  z-index: -1;
+  background-repeat: no-repeat;
+  margin-left: 834px;
+  margin-top: 30px;
+}
+
+.think-1 {
+  margin-left: 834px;
+  margin-top: 15px;
+}
+
+.think-2 {
+  margin-left: 34px;
+  margin-bottom: 20px;
+}
+
+.think-3 {
+  margin-left: 230px;
+  margin-top: 20px;
+}
+
+footer {
+  margin-left: 34px;
+  margin-bottom: 43px;
+}/*# sourceMappingURL=style.css.map */
